@@ -1,0 +1,39 @@
+{
+  "name": "mediator-module",
+  "version": "0.0.0",
+  "description": "mediator module",
+  "homepage": "https://github.com/PAIO-CO-KR/mediator-module",
+  "author": {
+    "name": "PAIO co.,ltd.",
+    "email": "apple@paio.co.kr",
+    "url": "http://www.paio.co.kr"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "mediator",
+    "module"
+  ],
+  "repository": "ssh://git@bitbucket.org/paio/codelvl.git",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-babel": "^5.1.0",
+    "del": "^2.0.2",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT"
+}
