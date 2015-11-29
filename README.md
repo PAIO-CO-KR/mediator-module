@@ -43,9 +43,9 @@ MIT © [PAIO co.,ltd.](http://www.paio.co.kr)
 
 [npm-image]: https://badge.fury.io/js/mediator-module.svg
 [npm-url]: https://npmjs.org/package/mediator-module
-[travis-image]: https://travis-ci.org/kyuwoo-choi/mediator-module.svg?branch=master
-[travis-url]: https://travis-ci.org/kyuwoo-choi/mediator-module
-[daviddm-image]: https://david-dm.org/kyuwoo-choi/mediator-module.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/kyuwoo-choi/mediator-module
-[coveralls-image]: https://coveralls.io/repos/kyuwoo-choi/mediator-module/badge.svg
-[coveralls-url]: https://coveralls.io/r/kyuwoo-choi/mediator-module
+[travis-image]: https://travis-ci.org/PAIO-CO-KR/mediator-module.svg?branch=master
+[travis-url]: https://travis-ci.org/PAIO-CO-KR/mediator-module
+[daviddm-image]: https://david-dm.org/PAIO-CO-KR/mediator-module.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/PAIO-CO-KR/mediator-module
+[coveralls-image]: https://coveralls.io/repos/PAIO-CO-KR/mediator-module/badge.svg
+[coveralls-url]: https://coveralls.io/r/PAIO-CO-KR/mediator-module
