@@ -16,7 +16,7 @@
     "mediator",
     "module"
   ],
-  "repository": "ssh://git@bitbucket.org/paio/codelvl.git",
+  "repository": "https://github.com/PAIO-CO-KR/mediator-module.git",
   "devDependencies": {
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
