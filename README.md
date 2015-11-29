@@ -12,9 +12,28 @@ $ npm install --save mediator-module
 ## Usage
 
 ```js
-var mediatorModule = require('mediator-module');
+var MediatorModule = require('mediator-module');
 
-mediatorModule('Rainbow');
+class FirstMediatorModule extends MediatorModule {
+  constructor () {
+    super();
+    this.mediator.subscribe('test', this.aTestFunction);
+  }
+
+  *aTestFunction () {
+    console.log('a func called');
+  }
+}
+
+class SecondMediatorModule extends MediatorModule {
+  constructor () {
+    super();
+  }
+
+  testPublish () {
+    this.mediator.publish('test');
+  }
+}
 ```
 
 ## License
