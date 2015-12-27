@@ -37,6 +37,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "co-mediator": "latest"
+    "co-mediator": "0.x.x"
   }
 }
