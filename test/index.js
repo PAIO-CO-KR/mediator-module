@@ -1,7 +1,10 @@
+import assert from 'assert';
 import MediatorModule from '../lib';
 
 describe('mediator-module', function () {
   it('should interact', function (done) {
+
+    assert(MediatorModule.globalMediator !== null, 'should be called with param');
 
     class FirstMediatorModule extends MediatorModule {
       constructor() {
