@@ -1,6 +1,6 @@
 {
   "name": "mediator-module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "mediator module",
   "homepage": "https://github.com/PAIO-CO-KR/mediator-module",
   "author": {
@@ -37,6 +37,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "co-mediator": "0.x.x"
+    "co-mediator": "^0.2"
   }
 }
